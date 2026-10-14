@@ -45,7 +45,7 @@ A surveyor walking up a hillside places the phone flat on a rock outcrop and the
 
 ### For surveyors / non-developers
 
-Go to the [Releases page](../../releases) and download the latest `.apk` file. Transfer to your Android phone and install. Requires Android 8.0 (API 26) or newer.
+Download the latest `.apk` from the [`apk/`](apk/) folder. Transfer to your Android phone and install. Requires Android 8.0 (API 26) or newer.
 
 ### For developers
 
@@ -99,6 +99,22 @@ This app was built during a summer internship at CHIRAG (Central Himalayan Rural
 CHIRAG has worked across rural communities in Nainital, Almora, Bageshwar, and Champawat districts of Uttarakhand since 1986 on natural resource management, rural health, education, and sustainable livelihoods. Their springshed programme has inventoried hundreds of springs and facilitated community-led recharge interventions including contour trenches, recharge pits, and chal-khals.
 
 Learn more: [chirag.org](https://chirag.org)
+
+---
+
+## Field validation
+
+- Validated against a Brunton compass-clinometer with **44 paired readings at Raghunath Mandir Spring, Bageshwar**.
+- GPS: 5-sample inverse-variance weighted fix, typically ±3-10 m, sub-5 m common under open canopy.
+- Magnetic declination and field-posture dip corrections applied automatically.
+
+## Documentation
+
+- [Technical report](docs/TECHNICAL_REPORT.md) - sensor pipeline, data model, exports, roadmap
+- [User manual](docs/USER_MANUAL.md) - field procedure for surveyors
+- [`apk/`](apk/) - signed Springshed Survey v1.0.0, plus two companion field apps built in the same programme: **Intervention Recorder** (offline mapping of trenches, pits and other recharge works) and **RockBed3D Visualizer** (3D strike/dip visualisation)
+
+Related: [springshed-qgis-plugins](https://github.com/pssinghfm27/springshed-qgis-plugins) turns this app's exports into recharge-zone maps in QGIS.
 
 ---
 
